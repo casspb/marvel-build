@@ -58,16 +58,35 @@ header {
 .characters li:hover {
     box-shadow: 0 220px 0 0 rgb(255, 0, 0) inset;
 }
-/** decendant selectors**/
 .characters li h5 {
- color: white;
- padding: 12px 8px;
+    color: white;
+    padding: 12px 8px;
+   }
+   
+   .characters li a {
+       text-decoration: none;
+   }
+
+article, #instructions {
+    padding: 20px;
 
 }
 
-.characters li a {
-    text-decoration: none;
+article h3, #instructions h3 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 14px;
 }
+
+article p, #instructions p{
+    width: 80%;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    margin: 0px auto;
+}
+/** decendant selectors**/
+
 
 /**sprite**/
 
